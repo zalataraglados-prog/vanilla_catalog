@@ -1,0 +1,233 @@
+{
+  "version": "1.19",
+  "edition": "java",
+  "server_properties": {
+    "supported": true,
+    "entries": {
+      "enable-jmx-monitoring": {
+        "type": "bool",
+        "default": false
+      },
+      "rcon.port": {
+        "type": "int",
+        "default": 25575
+      },
+      "level-seed": {
+        "type": "string",
+        "default": ""
+      },
+      "gamemode": {
+        "type": "string",
+        "default": "survival"
+      },
+      "enable-command-block": {
+        "type": "bool",
+        "default": false
+      },
+      "enable-query": {
+        "type": "bool",
+        "default": false
+      },
+      "generator-settings": {
+        "type": "string",
+        "default": "{}"
+      },
+      "enforce-secure-profile": {
+        "type": "bool",
+        "default": false
+      },
+      "level-name": {
+        "type": "string",
+        "default": "world"
+      },
+      "motd": {
+        "type": "string",
+        "default": "A Minecraft Server"
+      },
+      "query.port": {
+        "type": "int",
+        "default": 25565
+      },
+      "pvp": {
+        "type": "bool",
+        "default": true
+      },
+      "generate-structures": {
+        "type": "bool",
+        "default": true
+      },
+      "max-chained-neighbor-updates": {
+        "type": "int",
+        "default": 1000000
+      },
+      "difficulty": {
+        "type": "string",
+        "default": "easy"
+      },
+      "network-compression-threshold": {
+        "type": "int",
+        "default": 256
+      },
+      "max-tick-time": {
+        "type": "int",
+        "default": 60000
+      },
+      "require-resource-pack": {
+        "type": "bool",
+        "default": false
+      },
+      "use-native-transport": {
+        "type": "bool",
+        "default": true
+      },
+      "max-players": {
+        "type": "int",
+        "default": 20
+      },
+      "online-mode": {
+        "type": "bool",
+        "default": true
+      },
+      "enable-status": {
+        "type": "bool",
+        "default": true
+      },
+      "allow-flight": {
+        "type": "bool",
+        "default": false
+      },
+      "broadcast-rcon-to-ops": {
+        "type": "bool",
+        "default": true
+      },
+      "view-distance": {
+        "type": "int",
+        "default": 10
+      },
+      "server-ip": {
+        "type": "string",
+        "default": ""
+      },
+      "resource-pack-prompt": {
+        "type": "string",
+        "default": ""
+      },
+      "allow-nether": {
+        "type": "bool",
+        "default": true
+      },
+      "server-port": {
+        "type": "int",
+        "default": 25565
+      },
+      "enable-rcon": {
+        "type": "bool",
+        "default": false
+      },
+      "sync-chunk-writes": {
+        "type": "bool",
+        "default": true
+      },
+      "op-permission-level": {
+        "type": "int",
+        "default": 4
+      },
+      "prevent-proxy-connections": {
+        "type": "bool",
+        "default": false
+      },
+      "hide-online-players": {
+        "type": "bool",
+        "default": false
+      },
+      "resource-pack": {
+        "type": "string",
+        "default": ""
+      },
+      "entity-broadcast-range-percentage": {
+        "type": "int",
+        "default": 100
+      },
+      "simulation-distance": {
+        "type": "int",
+        "default": 10
+      },
+      "rcon.password": {
+        "type": "string",
+        "default": ""
+      },
+      "player-idle-timeout": {
+        "type": "int",
+        "default": 0
+      },
+      "force-gamemode": {
+        "type": "bool",
+        "default": false
+      },
+      "rate-limit": {
+        "type": "int",
+        "default": 0
+      },
+      "hardcore": {
+        "type": "bool",
+        "default": false
+      },
+      "white-list": {
+        "type": "bool",
+        "default": false
+      },
+      "broadcast-console-to-ops": {
+        "type": "bool",
+        "default": true
+      },
+      "spawn-npcs": {
+        "type": "bool",
+        "default": true
+      },
+      "previews-chat": {
+        "type": "bool",
+        "default": false
+      },
+      "spawn-animals": {
+        "type": "bool",
+        "default": true
+      },
+      "function-permission-level": {
+        "type": "int",
+        "default": 2
+      },
+      "level-type": {
+        "type": "string",
+        "default": "minecraft\\:normal"
+      },
+      "text-filtering-config": {
+        "type": "string",
+        "default": ""
+      },
+      "spawn-monsters": {
+        "type": "bool",
+        "default": true
+      },
+      "enforce-whitelist": {
+        "type": "bool",
+        "default": false
+      },
+      "spawn-protection": {
+        "type": "int",
+        "default": 16
+      },
+      "resource-pack-sha1": {
+        "type": "string",
+        "default": ""
+      },
+      "max-world-size": {
+        "type": "int",
+        "default": 29999984
+      }
+    }
+  },
+  "gamerule": {
+    "supported": true,
+    "entries": {}
+  }
+}

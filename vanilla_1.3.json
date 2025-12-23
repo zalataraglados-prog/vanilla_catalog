@@ -1,0 +1,109 @@
+{
+  "version": "1.3",
+  "edition": "java",
+  "server_properties": {
+    "supported": true,
+    "entries": {
+      "allow-flight": {
+        "type": "bool",
+        "default": false
+      },
+      "allow-nether": {
+        "type": "bool",
+        "default": true
+      },
+      "difficulty": {
+        "type": "int",
+        "default": 1
+      },
+      "enable-query": {
+        "type": "bool",
+        "default": false
+      },
+      "enable-rcon": {
+        "type": "bool",
+        "default": false
+      },
+      "gamemode": {
+        "type": "int",
+        "default": 0
+      },
+      "generate-structures": {
+        "type": "bool",
+        "default": true
+      },
+      "hardcore": {
+        "type": "bool",
+        "default": false
+      },
+      "level-name": {
+        "type": "string",
+        "default": "world"
+      },
+      "level-seed": {
+        "type": "string",
+        "default": ""
+      },
+      "level-type": {
+        "type": "string",
+        "default": "DEFAULT"
+      },
+      "max-build-height": {
+        "type": "int",
+        "default": 256
+      },
+      "max-players": {
+        "type": "int",
+        "default": 20
+      },
+      "motd": {
+        "type": "string",
+        "default": "A Minecraft Server"
+      },
+      "online-mode": {
+        "type": "bool",
+        "default": true
+      },
+      "pvp": {
+        "type": "bool",
+        "default": true
+      },
+      "server-ip": {
+        "type": "string",
+        "default": ""
+      },
+      "server-port": {
+        "type": "int",
+        "default": 25565
+      },
+      "spawn-animals": {
+        "type": "bool",
+        "default": true
+      },
+      "spawn-monsters": {
+        "type": "bool",
+        "default": true
+      },
+      "spawn-npcs": {
+        "type": "bool",
+        "default": true
+      },
+      "texture-pack": {
+        "type": "string",
+        "default": ""
+      },
+      "view-distance": {
+        "type": "int",
+        "default": 10
+      },
+      "white-list": {
+        "type": "bool",
+        "default": false
+      }
+    }
+  },
+  "gamerule": {
+    "supported": false,
+    "entries": {}
+  }
+}

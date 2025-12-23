@@ -1,0 +1,113 @@
+{
+  "version": "1.4.4",
+  "edition": "java",
+  "server_properties": {
+    "supported": true,
+    "entries": {
+      "generator-settings": {
+        "type": "string",
+        "default": ""
+      },
+      "allow-nether": {
+        "type": "bool",
+        "default": true
+      },
+      "level-name": {
+        "type": "string",
+        "default": "world"
+      },
+      "enable-query": {
+        "type": "bool",
+        "default": false
+      },
+      "allow-flight": {
+        "type": "bool",
+        "default": false
+      },
+      "server-port": {
+        "type": "int",
+        "default": 25565
+      },
+      "level-type": {
+        "type": "string",
+        "default": "DEFAULT"
+      },
+      "enable-rcon": {
+        "type": "bool",
+        "default": false
+      },
+      "level-seed": {
+        "type": "string",
+        "default": ""
+      },
+      "server-ip": {
+        "type": "string",
+        "default": ""
+      },
+      "max-build-height": {
+        "type": "int",
+        "default": 256
+      },
+      "spawn-npcs": {
+        "type": "bool",
+        "default": true
+      },
+      "white-list": {
+        "type": "bool",
+        "default": false
+      },
+      "spawn-animals": {
+        "type": "bool",
+        "default": true
+      },
+      "hardcore": {
+        "type": "bool",
+        "default": false
+      },
+      "texture-pack": {
+        "type": "string",
+        "default": ""
+      },
+      "online-mode": {
+        "type": "bool",
+        "default": true
+      },
+      "pvp": {
+        "type": "bool",
+        "default": true
+      },
+      "difficulty": {
+        "type": "int",
+        "default": 1
+      },
+      "gamemode": {
+        "type": "int",
+        "default": 0
+      },
+      "max-players": {
+        "type": "int",
+        "default": 20
+      },
+      "spawn-monsters": {
+        "type": "bool",
+        "default": true
+      },
+      "generate-structures": {
+        "type": "bool",
+        "default": true
+      },
+      "view-distance": {
+        "type": "int",
+        "default": 10
+      },
+      "motd": {
+        "type": "string",
+        "default": "A Minecraft Server"
+      }
+    }
+  },
+  "gamerule": {
+    "supported": true,
+    "entries": {}
+  }
+}
