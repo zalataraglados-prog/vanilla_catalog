@@ -1,0 +1,695 @@
+{
+  "version": "1.21.4",
+  "edition": "java",
+  "server_properties": {
+    "entries": {
+      "accepts-transfers": {
+        "category": "network",
+        "risk": "low",
+        "sensitivity": "advanced",
+        "scope": "server"
+      },
+      "allow-flight": {
+        "category": "gameplay",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "player"
+      },
+      "allow-nether": {
+        "category": "world",
+        "risk": "low",
+        "sensitivity": "novice",
+        "scope": "world"
+      },
+      "broadcast-console-to-ops": {
+        "category": "security",
+        "risk": "low",
+        "sensitivity": "advanced",
+        "scope": "server"
+      },
+      "broadcast-rcon-to-ops": {
+        "category": "security",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "server"
+      },
+      "bug-report-link": {
+        "category": "gameplay",
+        "risk": "low",
+        "sensitivity": "novice",
+        "scope": "player"
+      },
+      "difficulty": {
+        "category": "gameplay",
+        "risk": "low",
+        "sensitivity": "novice",
+        "scope": "world"
+      },
+      "enable-command-block": {
+        "category": "security",
+        "risk": "high",
+        "sensitivity": "advanced",
+        "scope": "world"
+      },
+      "enable-jmx-monitoring": {
+        "category": "performance",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "server"
+      },
+      "enable-query": {
+        "category": "network",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "server"
+      },
+      "enable-rcon": {
+        "category": "security",
+        "risk": "high",
+        "sensitivity": "advanced",
+        "scope": "server"
+      },
+      "enable-status": {
+        "category": "network",
+        "risk": "low",
+        "sensitivity": "novice",
+        "scope": "server"
+      },
+      "enforce-secure-profile": {
+        "category": "security",
+        "risk": "medium",
+        "sensitivity": "novice",
+        "scope": "player"
+      },
+      "enforce-whitelist": {
+        "category": "security",
+        "risk": "medium",
+        "sensitivity": "novice",
+        "scope": "server"
+      },
+      "entity-broadcast-range-percentage": {
+        "category": "performance",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "world"
+      },
+      "force-gamemode": {
+        "category": "gameplay",
+        "risk": "medium",
+        "sensitivity": "novice",
+        "scope": "player"
+      },
+      "function-permission-level": {
+        "category": "security",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "server"
+      },
+      "gamemode": {
+        "category": "gameplay",
+        "risk": "low",
+        "sensitivity": "novice",
+        "scope": "player"
+      },
+      "generate-structures": {
+        "category": "world",
+        "risk": "medium",
+        "sensitivity": "novice",
+        "scope": "world"
+      },
+      "generator-settings": {
+        "category": "world",
+        "risk": "high",
+        "sensitivity": "advanced",
+        "scope": "world"
+      },
+      "hardcore": {
+        "category": "gameplay",
+        "risk": "high",
+        "sensitivity": "novice",
+        "scope": "world"
+      },
+      "hide-online-players": {
+        "category": "security",
+        "risk": "low",
+        "sensitivity": "advanced",
+        "scope": "server"
+      },
+      "initial-disabled-packs": {
+        "category": "gameplay",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "world"
+      },
+      "initial-enabled-packs": {
+        "category": "gameplay",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "world"
+      },
+      "level-name": {
+        "category": "world",
+        "risk": "low",
+        "sensitivity": "novice",
+        "scope": "world"
+      },
+      "level-seed": {
+        "category": "world",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "world"
+      },
+      "level-type": {
+        "category": "world",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "world"
+      },
+      "log-ips": {
+        "category": "security",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "server"
+      },
+      "max-chained-neighbor-updates": {
+        "category": "performance",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "world"
+      },
+      "max-players": {
+        "category": "performance",
+        "risk": "medium",
+        "sensitivity": "novice",
+        "scope": "server"
+      },
+      "max-tick-time": {
+        "category": "performance",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "server"
+      },
+      "max-world-size": {
+        "category": "world",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "world"
+      },
+      "motd": {
+        "category": "gameplay",
+        "risk": "low",
+        "sensitivity": "novice",
+        "scope": "server"
+      },
+      "network-compression-threshold": {
+        "category": "network",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "server"
+      },
+      "online-mode": {
+        "category": "security",
+        "risk": "high",
+        "sensitivity": "novice",
+        "scope": "server"
+      },
+      "op-permission-level": {
+        "category": "security",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "server"
+      },
+      "pause-when-empty-seconds": {
+        "category": "performance",
+        "risk": "low",
+        "sensitivity": "advanced",
+        "scope": "server"
+      },
+      "player-idle-timeout": {
+        "category": "gameplay",
+        "risk": "low",
+        "sensitivity": "novice",
+        "scope": "player"
+      },
+      "prevent-proxy-connections": {
+        "category": "security",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "server"
+      },
+      "pvp": {
+        "category": "gameplay",
+        "risk": "medium",
+        "sensitivity": "novice",
+        "scope": "player"
+      },
+      "query.port": {
+        "category": "network",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "server"
+      },
+      "rate-limit": {
+        "category": "network",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "server"
+      },
+      "rcon.password": {
+        "category": "security",
+        "risk": "high",
+        "sensitivity": "advanced",
+        "scope": "server"
+      },
+      "rcon.port": {
+        "category": "security",
+        "risk": "high",
+        "sensitivity": "advanced",
+        "scope": "server"
+      },
+      "region-file-compression": {
+        "category": "performance",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "world"
+      },
+      "require-resource-pack": {
+        "category": "gameplay",
+        "risk": "medium",
+        "sensitivity": "novice",
+        "scope": "player"
+      },
+      "resource-pack": {
+        "category": "gameplay",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "player"
+      },
+      "resource-pack-id": {
+        "category": "gameplay",
+        "risk": "low",
+        "sensitivity": "advanced",
+        "scope": "player"
+      },
+      "resource-pack-prompt": {
+        "category": "gameplay",
+        "risk": "low",
+        "sensitivity": "novice",
+        "scope": "player"
+      },
+      "resource-pack-sha1": {
+        "category": "security",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "player"
+      },
+      "server-ip": {
+        "category": "network",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "server"
+      },
+      "server-port": {
+        "category": "network",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "server"
+      },
+      "simulation-distance": {
+        "category": "performance",
+        "risk": "high",
+        "sensitivity": "novice",
+        "scope": "world"
+      },
+      "spawn-monsters": {
+        "category": "gameplay",
+        "risk": "medium",
+        "sensitivity": "novice",
+        "scope": "world"
+      },
+      "spawn-protection": {
+        "category": "security",
+        "risk": "medium",
+        "sensitivity": "novice",
+        "scope": "world"
+      },
+      "sync-chunk-writes": {
+        "category": "performance",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "world"
+      },
+      "text-filtering-config": {
+        "category": "security",
+        "risk": "low",
+        "sensitivity": "advanced",
+        "scope": "server"
+      },
+      "text-filtering-version": {
+        "category": "security",
+        "risk": "low",
+        "sensitivity": "advanced",
+        "scope": "server"
+      },
+      "use-native-transport": {
+        "category": "performance",
+        "risk": "low",
+        "sensitivity": "advanced",
+        "scope": "server"
+      },
+      "view-distance": {
+        "category": "performance",
+        "risk": "high",
+        "sensitivity": "novice",
+        "scope": "world"
+      },
+      "white-list": {
+        "category": "security",
+        "risk": "medium",
+        "sensitivity": "novice",
+        "scope": "server"
+      }
+    }
+  },
+  "gamerule": {
+    "entries": {
+      "announceAdvancements": {
+        "category": "gameplay",
+        "risk": "low",
+        "sensitivity": "novice",
+        "scope": "player"
+      },
+      "blockExplosionDropDecay": {
+        "category": "performance",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "world"
+      },
+      "commandBlockOutput": {
+        "category": "security",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "server"
+      },
+      "commandModificationBlockLimit": {
+        "category": "security",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "server"
+      },
+      "disableElytraMovementCheck": {
+        "category": "gameplay",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "player"
+      },
+      "disablePlayerMovementCheck": {
+        "category": "security",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "player"
+      },
+      "disableRaids": {
+        "category": "world",
+        "risk": "medium",
+        "sensitivity": "novice",
+        "scope": "world"
+      },
+      "doDaylightCycle": {
+        "category": "world",
+        "risk": "medium",
+        "sensitivity": "novice",
+        "scope": "world"
+      },
+      "doEntityDrops": {
+        "category": "gameplay",
+        "risk": "medium",
+        "sensitivity": "novice",
+        "scope": "world"
+      },
+      "doFireTick": {
+        "category": "world",
+        "risk": "medium",
+        "sensitivity": "novice",
+        "scope": "world"
+      },
+      "doImmediateRespawn": {
+        "category": "gameplay",
+        "risk": "low",
+        "sensitivity": "novice",
+        "scope": "player"
+      },
+      "doInsomnia": {
+        "category": "gameplay",
+        "risk": "low",
+        "sensitivity": "novice",
+        "scope": "world"
+      },
+      "doLimitedCrafting": {
+        "category": "gameplay",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "player"
+      },
+      "doMobLoot": {
+        "category": "gameplay",
+        "risk": "medium",
+        "sensitivity": "novice",
+        "scope": "world"
+      },
+      "doMobSpawning": {
+        "category": "world",
+        "risk": "high",
+        "sensitivity": "novice",
+        "scope": "world"
+      },
+      "doPatrolSpawning": {
+        "category": "world",
+        "risk": "medium",
+        "sensitivity": "novice",
+        "scope": "world"
+      },
+      "doTileDrops": {
+        "category": "gameplay",
+        "risk": "medium",
+        "sensitivity": "novice",
+        "scope": "world"
+      },
+      "doTraderSpawning": {
+        "category": "world",
+        "risk": "low",
+        "sensitivity": "novice",
+        "scope": "world"
+      },
+      "doVinesSpread": {
+        "category": "world",
+        "risk": "low",
+        "sensitivity": "novice",
+        "scope": "world"
+      },
+      "doWardenSpawning": {
+        "category": "world",
+        "risk": "medium",
+        "sensitivity": "novice",
+        "scope": "world"
+      },
+      "doWeatherCycle": {
+        "category": "world",
+        "risk": "medium",
+        "sensitivity": "novice",
+        "scope": "world"
+      },
+      "drowningDamage": {
+        "category": "gameplay",
+        "risk": "low",
+        "sensitivity": "novice",
+        "scope": "player"
+      },
+      "enderPearlsVanishOnDeath": {
+        "category": "gameplay",
+        "risk": "low",
+        "sensitivity": "novice",
+        "scope": "player"
+      },
+      "fallDamage": {
+        "category": "gameplay",
+        "risk": "low",
+        "sensitivity": "novice",
+        "scope": "player"
+      },
+      "fireDamage": {
+        "category": "gameplay",
+        "risk": "low",
+        "sensitivity": "novice",
+        "scope": "player"
+      },
+      "forgiveDeadPlayers": {
+        "category": "gameplay",
+        "risk": "low",
+        "sensitivity": "advanced",
+        "scope": "player"
+      },
+      "freezeDamage": {
+        "category": "gameplay",
+        "risk": "low",
+        "sensitivity": "novice",
+        "scope": "player"
+      },
+      "globalSoundEvents": {
+        "category": "gameplay",
+        "risk": "low",
+        "sensitivity": "advanced",
+        "scope": "world"
+      },
+      "keepInventory": {
+        "category": "gameplay",
+        "risk": "high",
+        "sensitivity": "novice",
+        "scope": "player"
+      },
+      "lavaSourceConversion": {
+        "category": "world",
+        "risk": "low",
+        "sensitivity": "advanced",
+        "scope": "world"
+      },
+      "logAdminCommands": {
+        "category": "security",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "server"
+      },
+      "maxCommandChainLength": {
+        "category": "security",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "server"
+      },
+      "maxCommandForkCount": {
+        "category": "security",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "server"
+      },
+      "maxEntityCramming": {
+        "category": "performance",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "world"
+      },
+      "mobExplosionDropDecay": {
+        "category": "performance",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "world"
+      },
+      "mobGriefing": {
+        "category": "world",
+        "risk": "high",
+        "sensitivity": "novice",
+        "scope": "world"
+      },
+      "naturalRegeneration": {
+        "category": "gameplay",
+        "risk": "medium",
+        "sensitivity": "novice",
+        "scope": "player"
+      },
+      "playersNetherPortalCreativeDelay": {
+        "category": "gameplay",
+        "risk": "low",
+        "sensitivity": "advanced",
+        "scope": "player"
+      },
+      "playersNetherPortalDefaultDelay": {
+        "category": "gameplay",
+        "risk": "low",
+        "sensitivity": "advanced",
+        "scope": "player"
+      },
+      "playersSleepingPercentage": {
+        "category": "gameplay",
+        "risk": "low",
+        "sensitivity": "novice",
+        "scope": "world"
+      },
+      "projectilesCanBreakBlocks": {
+        "category": "gameplay",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "world"
+      },
+      "randomTickSpeed": {
+        "category": "performance",
+        "risk": "high",
+        "sensitivity": "advanced",
+        "scope": "world"
+      },
+      "reducedDebugInfo": {
+        "category": "security",
+        "risk": "low",
+        "sensitivity": "novice",
+        "scope": "player"
+      },
+      "sendCommandFeedback": {
+        "category": "security",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "server"
+      },
+      "showDeathMessages": {
+        "category": "gameplay",
+        "risk": "low",
+        "sensitivity": "novice",
+        "scope": "player"
+      },
+      "snowAccumulationHeight": {
+        "category": "world",
+        "risk": "low",
+        "sensitivity": "advanced",
+        "scope": "world"
+      },
+      "spawnChunkRadius": {
+        "category": "performance",
+        "risk": "high",
+        "sensitivity": "advanced",
+        "scope": "world"
+      },
+      "spawnRadius": {
+        "category": "world",
+        "risk": "medium",
+        "sensitivity": "novice",
+        "scope": "world"
+      },
+      "spectatorsGenerateChunks": {
+        "category": "performance",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "world"
+      },
+      "tntExplosionDropDecay": {
+        "category": "performance",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "world"
+      },
+      "universalAnger": {
+        "category": "gameplay",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "world"
+      },
+      "waterSourceConversion": {
+        "category": "world",
+        "risk": "low",
+        "sensitivity": "advanced",
+        "scope": "world"
+      }
+    }
+  },
+  "taxonomy_status": {
+    "state": "frozen",
+    "phase": "8",
+    "notes": "Taxonomy v0 for vanilla 1.21.4"
+  }
+}

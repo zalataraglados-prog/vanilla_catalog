@@ -1,0 +1,157 @@
+{
+  "version": "1.10.2",
+  "edition": "java",
+  "server_properties": {
+    "supported": true,
+    "entries": {
+      "max-tick-time": {
+        "type": "int",
+        "default": 60000
+      },
+      "generator-settings": {
+        "type": "string",
+        "default": ""
+      },
+      "force-gamemode": {
+        "type": "bool",
+        "default": false
+      },
+      "allow-nether": {
+        "type": "bool",
+        "default": true
+      },
+      "gamemode": {
+        "type": "int",
+        "default": 0
+      },
+      "enable-query": {
+        "type": "bool",
+        "default": false
+      },
+      "player-idle-timeout": {
+        "type": "int",
+        "default": 0
+      },
+      "difficulty": {
+        "type": "int",
+        "default": 1
+      },
+      "spawn-monsters": {
+        "type": "bool",
+        "default": true
+      },
+      "op-permission-level": {
+        "type": "int",
+        "default": 4
+      },
+      "announce-player-achievements": {
+        "type": "bool",
+        "default": true
+      },
+      "pvp": {
+        "type": "bool",
+        "default": true
+      },
+      "snooper-enabled": {
+        "type": "bool",
+        "default": true
+      },
+      "level-type": {
+        "type": "string",
+        "default": "DEFAULT"
+      },
+      "hardcore": {
+        "type": "bool",
+        "default": false
+      },
+      "enable-command-block": {
+        "type": "bool",
+        "default": false
+      },
+      "max-players": {
+        "type": "int",
+        "default": 20
+      },
+      "network-compression-threshold": {
+        "type": "int",
+        "default": 256
+      },
+      "resource-pack-sha1": {
+        "type": "string",
+        "default": ""
+      },
+      "max-world-size": {
+        "type": "int",
+        "default": 29999984
+      },
+      "server-port": {
+        "type": "int",
+        "default": 25565
+      },
+      "server-ip": {
+        "type": "string",
+        "default": ""
+      },
+      "spawn-npcs": {
+        "type": "bool",
+        "default": true
+      },
+      "allow-flight": {
+        "type": "bool",
+        "default": false
+      },
+      "level-name": {
+        "type": "string",
+        "default": "world"
+      },
+      "view-distance": {
+        "type": "int",
+        "default": 10
+      },
+      "resource-pack": {
+        "type": "string",
+        "default": ""
+      },
+      "spawn-animals": {
+        "type": "bool",
+        "default": true
+      },
+      "white-list": {
+        "type": "bool",
+        "default": false
+      },
+      "generate-structures": {
+        "type": "bool",
+        "default": true
+      },
+      "online-mode": {
+        "type": "bool",
+        "default": true
+      },
+      "max-build-height": {
+        "type": "int",
+        "default": 256
+      },
+      "level-seed": {
+        "type": "string",
+        "default": ""
+      },
+      "use-native-transport": {
+        "type": "bool",
+        "default": true
+      },
+      "motd": {
+        "type": "string",
+        "default": "A Minecraft Server"
+      },
+      "enable-rcon": {
+        "type": "bool",
+        "default": false
+      }
+    }
+  },
+  "gamerule": {
+    "supported": true,
+    "entries": {}
+  }
+}

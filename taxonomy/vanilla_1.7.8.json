@@ -1,0 +1,202 @@
+{
+  "version": "1.7.8",
+  "edition": "java",
+  "server_properties": {
+    "entries": {
+      "generator-settings": {
+        "category": "world",
+        "risk": "high",
+        "sensitivity": "advanced",
+        "scope": "world"
+      },
+      "op-permission-level": {
+        "category": "security",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "server"
+      },
+      "allow-nether": {
+        "category": "world",
+        "risk": "low",
+        "sensitivity": "novice",
+        "scope": "world"
+      },
+      "level-name": {
+        "category": "world",
+        "risk": "low",
+        "sensitivity": "novice",
+        "scope": "world"
+      },
+      "enable-query": {
+        "category": "network",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "server"
+      },
+      "allow-flight": {
+        "category": "gameplay",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "player"
+      },
+      "announce-player-achievements": {
+        "category": null,
+        "risk": null,
+        "sensitivity": null,
+        "scope": null
+      },
+      "server-port": {
+        "category": "network",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "server"
+      },
+      "level-type": {
+        "category": "world",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "world"
+      },
+      "enable-rcon": {
+        "category": "security",
+        "risk": "high",
+        "sensitivity": "advanced",
+        "scope": "server"
+      },
+      "force-gamemode": {
+        "category": "gameplay",
+        "risk": "medium",
+        "sensitivity": "novice",
+        "scope": "player"
+      },
+      "level-seed": {
+        "category": "world",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "world"
+      },
+      "server-ip": {
+        "category": "network",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "server"
+      },
+      "max-build-height": {
+        "category": null,
+        "risk": null,
+        "sensitivity": null,
+        "scope": null
+      },
+      "spawn-npcs": {
+        "category": null,
+        "risk": null,
+        "sensitivity": null,
+        "scope": null
+      },
+      "white-list": {
+        "category": "security",
+        "risk": "medium",
+        "sensitivity": "novice",
+        "scope": "server"
+      },
+      "spawn-animals": {
+        "category": null,
+        "risk": null,
+        "sensitivity": null,
+        "scope": null
+      },
+      "hardcore": {
+        "category": "gameplay",
+        "risk": "high",
+        "sensitivity": "novice",
+        "scope": "world"
+      },
+      "snooper-enabled": {
+        "category": null,
+        "risk": null,
+        "sensitivity": null,
+        "scope": null
+      },
+      "online-mode": {
+        "category": "security",
+        "risk": "high",
+        "sensitivity": "novice",
+        "scope": "server"
+      },
+      "resource-pack": {
+        "category": "gameplay",
+        "risk": "medium",
+        "sensitivity": "advanced",
+        "scope": "player"
+      },
+      "pvp": {
+        "category": "gameplay",
+        "risk": "medium",
+        "sensitivity": "novice",
+        "scope": "player"
+      },
+      "difficulty": {
+        "category": "gameplay",
+        "risk": "low",
+        "sensitivity": "novice",
+        "scope": "world"
+      },
+      "enable-command-block": {
+        "category": "security",
+        "risk": "high",
+        "sensitivity": "advanced",
+        "scope": "world"
+      },
+      "gamemode": {
+        "category": "gameplay",
+        "risk": "low",
+        "sensitivity": "novice",
+        "scope": "player"
+      },
+      "player-idle-timeout": {
+        "category": "gameplay",
+        "risk": "low",
+        "sensitivity": "novice",
+        "scope": "player"
+      },
+      "max-players": {
+        "category": "performance",
+        "risk": "medium",
+        "sensitivity": "novice",
+        "scope": "server"
+      },
+      "spawn-monsters": {
+        "category": "gameplay",
+        "risk": "medium",
+        "sensitivity": "novice",
+        "scope": "world"
+      },
+      "generate-structures": {
+        "category": "world",
+        "risk": "medium",
+        "sensitivity": "novice",
+        "scope": "world"
+      },
+      "view-distance": {
+        "category": "performance",
+        "risk": "high",
+        "sensitivity": "novice",
+        "scope": "world"
+      },
+      "motd": {
+        "category": "gameplay",
+        "risk": "low",
+        "sensitivity": "novice",
+        "scope": "server"
+      }
+    }
+  },
+  "gamerule": {
+    "entries": {}
+  },
+  "taxonomy_status": {
+    "state": "frozen",
+    "phase": "8",
+    "notes": "Taxonomy v0 for vanilla 1.7.8"
+  }
+}

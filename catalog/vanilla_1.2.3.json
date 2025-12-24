@@ -1,0 +1,12 @@
+{
+  "version": "1.2.3",
+  "edition": "java",
+  "server_properties": {
+    "supported": false,
+    "entries": {}
+  },
+  "gamerule": {
+    "supported": false,
+    "entries": {}
+  }
+}
