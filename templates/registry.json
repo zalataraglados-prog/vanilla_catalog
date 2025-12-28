@@ -1,0 +1,31 @@
+﻿{
+  "templates": [
+    {
+      "id": "safe_default",
+      "name": "Safe Default",
+      "description": "Balanced defaults for most servers.",
+      "params": {
+        "minecraft.view_distance": 10,
+        "docker.env.MEMORY": "4G"
+      }
+    },
+    {
+      "id": "high_performance",
+      "name": "High Performance",
+      "description": "Lower view distance to reduce load.",
+      "params": {
+        "minecraft.view_distance": 6,
+        "docker.env.MEMORY": "6G"
+      }
+    },
+    {
+      "id": "low_memory",
+      "name": "Low Memory",
+      "description": "Conservative settings for limited RAM.",
+      "params": {
+        "minecraft.view_distance": 6,
+        "docker.env.MEMORY": "2G"
+      }
+    }
+  ]
+}
