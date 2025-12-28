@@ -1,12 +1,8 @@
-﻿{
-    "server_properties":  {
-                              "entries":  {
-
-                                          }
-                          },
-    "gamerule":  {
-                     "entries":  {
-
-                                 }
-                 }
+{
+  "server_properties": {
+    "entries": {}
+  },
+  "gamerule": {
+    "entries": {}
+  }
 }

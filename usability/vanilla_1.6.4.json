@@ -1,12 +1,171 @@
-﻿{
-    "server_properties":  {
-                              "entries":  {
-
-                                          }
-                          },
-    "gamerule":  {
-                     "entries":  {
-
-                                 }
-                 }
+{
+  "server_properties": {
+    "entries": {
+      "generator-settings": {
+        "usability": {
+          "exposed": true,
+          "default_hint": ""
+        }
+      },
+      "allow-nether": {
+        "usability": {
+          "exposed": true,
+          "default_hint": true
+        }
+      },
+      "level-name": {
+        "usability": {
+          "exposed": true,
+          "default_hint": "world"
+        }
+      },
+      "enable-query": {
+        "usability": {
+          "exposed": true,
+          "default_hint": false
+        }
+      },
+      "allow-flight": {
+        "usability": {
+          "exposed": true,
+          "default_hint": false
+        }
+      },
+      "server-port": {
+        "usability": {
+          "exposed": true,
+          "default_hint": 25565
+        }
+      },
+      "level-type": {
+        "usability": {
+          "exposed": true,
+          "default_hint": "DEFAULT"
+        }
+      },
+      "enable-rcon": {
+        "usability": {
+          "exposed": true,
+          "default_hint": false
+        }
+      },
+      "force-gamemode": {
+        "usability": {
+          "exposed": true,
+          "default_hint": false
+        }
+      },
+      "level-seed": {
+        "usability": {
+          "exposed": true,
+          "default_hint": ""
+        }
+      },
+      "server-ip": {
+        "usability": {
+          "exposed": true,
+          "default_hint": ""
+        }
+      },
+      "max-build-height": {
+        "usability": {
+          "exposed": true,
+          "default_hint": 256
+        }
+      },
+      "spawn-npcs": {
+        "usability": {
+          "exposed": true,
+          "default_hint": true
+        }
+      },
+      "white-list": {
+        "usability": {
+          "exposed": true,
+          "default_hint": false
+        }
+      },
+      "spawn-animals": {
+        "usability": {
+          "exposed": true,
+          "default_hint": true
+        }
+      },
+      "hardcore": {
+        "usability": {
+          "exposed": true,
+          "default_hint": false
+        }
+      },
+      "texture-pack": {
+        "usability": {
+          "exposed": true,
+          "default_hint": ""
+        }
+      },
+      "online-mode": {
+        "usability": {
+          "exposed": true,
+          "default_hint": true
+        }
+      },
+      "pvp": {
+        "usability": {
+          "exposed": true,
+          "default_hint": true
+        }
+      },
+      "difficulty": {
+        "usability": {
+          "exposed": true,
+          "default_hint": 1
+        }
+      },
+      "gamemode": {
+        "usability": {
+          "exposed": true,
+          "default_hint": 0
+        }
+      },
+      "player-idle-timeout": {
+        "usability": {
+          "exposed": true,
+          "default_hint": 0
+        }
+      },
+      "max-players": {
+        "usability": {
+          "exposed": true,
+          "default_hint": 20
+        }
+      },
+      "spawn-monsters": {
+        "usability": {
+          "exposed": true,
+          "default_hint": true
+        }
+      },
+      "generate-structures": {
+        "usability": {
+          "exposed": true,
+          "default_hint": true
+        }
+      },
+      "view-distance": {
+        "usability": {
+          "exposed": true,
+          "default_hint": 10
+        }
+      },
+      "motd": {
+        "usability": {
+          "exposed": true,
+          "default_hint": "A Minecraft Server"
+        }
+      }
+    }
+  },
+  "gamerule": {
+    "entries": {}
+  }
 }
