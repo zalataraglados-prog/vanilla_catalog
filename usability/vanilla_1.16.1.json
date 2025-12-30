@@ -1,302 +1,322 @@
-﻿{
-    "server_properties":  {
-                              "entries":  {
-                                              "spawn-protection":  {
-                                                                       "usability":  {
-                                                                                         "exposed":  true,
-                                                                                         "default_hint":  16
-                                                                                     }
-                                                                   },
-                                              "max-tick-time":  {
-                                                                    "usability":  {
-                                                                                      "exposed":  true,
-                                                                                      "default_hint":  60000
-                                                                                  }
-                                                                },
-                                              "query.port":  {
-                                                                 "usability":  {
-                                                                                   "exposed":  true,
-                                                                                   "default_hint":  25565
-                                                                               }
-                                                             },
-                                              "generator-settings":  {
-                                                                         "usability":  {
-                                                                                           "exposed":  true,
-                                                                                           "default_hint":  ""
-                                                                                       }
-                                                                     },
-                                              "sync-chunk-writes":  {
-                                                                        "usability":  {
-                                                                                          "exposed":  true,
-                                                                                          "default_hint":  true
-                                                                                      }
-                                                                    },
-                                              "force-gamemode":  {
-                                                                     "usability":  {
-                                                                                       "exposed":  true,
-                                                                                       "default_hint":  false
-                                                                                   }
-                                                                 },
-                                              "allow-nether":  {
-                                                                   "usability":  {
-                                                                                     "exposed":  true,
-                                                                                     "default_hint":  true
-                                                                                 }
-                                                               },
-                                              "enforce-whitelist":  {
-                                                                        "usability":  {
-                                                                                          "exposed":  true,
-                                                                                          "default_hint":  false
-                                                                                      }
-                                                                    },
-                                              "gamemode":  {
-                                                               "usability":  {
-                                                                                 "exposed":  true,
-                                                                                 "default_hint":  "survival"
-                                                                             }
-                                                           },
-                                              "broadcast-console-to-ops":  {
-                                                                               "usability":  {
-                                                                                                 "exposed":  true,
-                                                                                                 "default_hint":  true
-                                                                                             }
-                                                                           },
-                                              "enable-query":  {
-                                                                   "usability":  {
-                                                                                     "exposed":  true,
-                                                                                     "default_hint":  false
-                                                                                 }
-                                                               },
-                                              "player-idle-timeout":  {
-                                                                          "usability":  {
-                                                                                            "exposed":  true,
-                                                                                            "default_hint":  0
-                                                                                        }
-                                                                      },
-                                              "difficulty":  {
-                                                                 "usability":  {
-                                                                                   "exposed":  true,
-                                                                                   "default_hint":  "easy"
-                                                                               }
-                                                             },
-                                              "spawn-monsters":  {
-                                                                     "usability":  {
-                                                                                       "exposed":  true,
-                                                                                       "default_hint":  true
-                                                                                   }
-                                                                 },
-                                              "broadcast-rcon-to-ops":  {
-                                                                            "usability":  {
-                                                                                              "exposed":  true,
-                                                                                              "default_hint":  true
-                                                                                          }
-                                                                        },
-                                              "op-permission-level":  {
-                                                                          "usability":  {
-                                                                                            "exposed":  true,
-                                                                                            "default_hint":  4
-                                                                                        }
-                                                                      },
-                                              "pvp":  {
-                                                          "usability":  {
-                                                                            "exposed":  true,
-                                                                            "default_hint":  true
-                                                                        }
-                                                      },
-                                              "entity-broadcast-range-percentage":  {
-                                                                                        "usability":  {
-                                                                                                          "exposed":  true,
-                                                                                                          "default_hint":  100
-                                                                                                      }
-                                                                                    },
-                                              "snooper-enabled":  {
-                                                                      "usability":  {
-                                                                                        "exposed":  true,
-                                                                                        "default_hint":  true
-                                                                                    }
-                                                                  },
-                                              "level-type":  {
-                                                                 "usability":  {
-                                                                                   "exposed":  true,
-                                                                                   "default_hint":  "default"
-                                                                               }
-                                                             },
-                                              "hardcore":  {
-                                                               "usability":  {
-                                                                                 "exposed":  true,
-                                                                                 "default_hint":  false
-                                                                             }
-                                                           },
-                                              "enable-status":  {
-                                                                    "usability":  {
-                                                                                      "exposed":  true,
-                                                                                      "default_hint":  true
-                                                                                  }
-                                                                },
-                                              "enable-command-block":  {
-                                                                           "usability":  {
-                                                                                             "exposed":  true,
-                                                                                             "default_hint":  false
-                                                                                         }
-                                                                       },
-                                              "max-players":  {
-                                                                  "usability":  {
-                                                                                    "exposed":  true,
-                                                                                    "default_hint":  20
-                                                                                }
-                                                              },
-                                              "network-compression-threshold":  {
-                                                                                    "usability":  {
-                                                                                                      "exposed":  true,
-                                                                                                      "default_hint":  256
-                                                                                                  }
-                                                                                },
-                                              "resource-pack-sha1":  {
-                                                                         "usability":  {
-                                                                                           "exposed":  true,
-                                                                                           "default_hint":  ""
-                                                                                       }
-                                                                     },
-                                              "max-world-size":  {
-                                                                     "usability":  {
-                                                                                       "exposed":  true,
-                                                                                       "default_hint":  29999984
-                                                                                   }
-                                                                 },
-                                              "function-permission-level":  {
-                                                                                "usability":  {
-                                                                                                  "exposed":  true,
-                                                                                                  "default_hint":  2
-                                                                                              }
-                                                                            },
-                                              "rcon.port":  {
-                                                                "usability":  {
-                                                                                  "exposed":  true,
-                                                                                  "default_hint":  25575
-                                                                              }
-                                                            },
-                                              "server-port":  {
-                                                                  "usability":  {
-                                                                                    "exposed":  true,
-                                                                                    "default_hint":  25565
-                                                                                }
-                                                              },
-                                              "server-ip":  {
-                                                                "usability":  {
-                                                                                  "exposed":  true,
-                                                                                  "default_hint":  ""
-                                                                              }
-                                                            },
-                                              "spawn-npcs":  {
-                                                                 "usability":  {
-                                                                                   "exposed":  true,
-                                                                                   "default_hint":  true
-                                                                               }
-                                                             },
-                                              "allow-flight":  {
-                                                                   "usability":  {
-                                                                                     "exposed":  true,
-                                                                                     "default_hint":  false
-                                                                                 }
-                                                               },
-                                              "level-name":  {
-                                                                 "usability":  {
-                                                                                   "exposed":  true,
-                                                                                   "default_hint":  "world"
-                                                                               }
-                                                             },
-                                              "view-distance":  {
-                                                                    "usability":  {
-                                                                                      "exposed":  true,
-                                                                                      "default_hint":  10,
-                                                                                      "recommended_range":  {
-
-                                                                                                            }
-                                                                                  }
-                                                                },
-                                              "resource-pack":  {
-                                                                    "usability":  {
-                                                                                      "exposed":  true,
-                                                                                      "default_hint":  ""
-                                                                                  }
-                                                                },
-                                              "spawn-animals":  {
-                                                                    "usability":  {
-                                                                                      "exposed":  true,
-                                                                                      "default_hint":  true
-                                                                                  }
-                                                                },
-                                              "white-list":  {
-                                                                 "usability":  {
-                                                                                   "exposed":  true,
-                                                                                   "default_hint":  false
-                                                                               }
-                                                             },
-                                              "rcon.password":  {
-                                                                    "usability":  {
-                                                                                      "exposed":  true,
-                                                                                      "default_hint":  ""
-                                                                                  }
-                                                                },
-                                              "generate-structures":  {
-                                                                          "usability":  {
-                                                                                            "exposed":  true,
-                                                                                            "default_hint":  true
-                                                                                        }
-                                                                      },
-                                              "max-build-height":  {
-                                                                       "usability":  {
-                                                                                         "exposed":  true,
-                                                                                         "default_hint":  256
-                                                                                     }
-                                                                   },
-                                              "online-mode":  {
-                                                                  "usability":  {
-                                                                                    "exposed":  true,
-                                                                                    "default_hint":  true
-                                                                                }
-                                                              },
-                                              "level-seed":  {
-                                                                 "usability":  {
-                                                                                   "exposed":  true,
-                                                                                   "default_hint":  ""
-                                                                               }
-                                                             },
-                                              "use-native-transport":  {
-                                                                           "usability":  {
-                                                                                             "exposed":  true,
-                                                                                             "default_hint":  true
-                                                                                         }
-                                                                       },
-                                              "prevent-proxy-connections":  {
-                                                                                "usability":  {
-                                                                                                  "exposed":  true,
-                                                                                                  "default_hint":  false
-                                                                                              }
-                                                                            },
-                                              "enable-jmx-monitoring":  {
-                                                                            "usability":  {
-                                                                                              "exposed":  true,
-                                                                                              "default_hint":  false
-                                                                                          }
-                                                                        },
-                                              "enable-rcon":  {
-                                                                  "usability":  {
-                                                                                    "exposed":  true,
-                                                                                    "default_hint":  false
-                                                                                }
-                                                              },
-                                              "motd":  {
-                                                           "usability":  {
-                                                                             "exposed":  true,
-                                                                             "default_hint":  "A Minecraft Server"
-                                                                         }
-                                                       }
-                                          }
-                          },
-    "gamerule":  {
-                     "entries":  {
-
-                                 }
-                 }
+{
+  "server_properties": {
+    "entries": {
+      "spawn-protection": {
+        "usability": {
+          "exposed": true,
+          "default_hint": 16
+        }
+      },
+      "max-tick-time": {
+        "usability": {
+          "exposed": true,
+          "default_hint": 60000
+        }
+      },
+      "query.port": {
+        "usability": {
+          "exposed": true,
+          "default_hint": 25565
+        }
+      },
+      "generator-settings": {
+        "usability": {
+          "exposed": true,
+          "default_hint": ""
+        }
+      },
+      "sync-chunk-writes": {
+        "usability": {
+          "exposed": true,
+          "default_hint": true
+        }
+      },
+      "force-gamemode": {
+        "usability": {
+          "exposed": true,
+          "default_hint": false
+        }
+      },
+      "allow-nether": {
+        "usability": {
+          "exposed": true,
+          "default_hint": true
+        }
+      },
+      "enforce-whitelist": {
+        "usability": {
+          "exposed": true,
+          "default_hint": false
+        }
+      },
+      "gamemode": {
+        "usability": {
+          "exposed": true,
+          "default_hint": "survival"
+        }
+      },
+      "broadcast-console-to-ops": {
+        "usability": {
+          "exposed": true,
+          "default_hint": true
+        }
+      },
+      "enable-query": {
+        "usability": {
+          "exposed": true,
+          "default_hint": false
+        }
+      },
+      "player-idle-timeout": {
+        "usability": {
+          "exposed": true,
+          "default_hint": 0
+        }
+      },
+      "difficulty": {
+        "usability": {
+          "exposed": true,
+          "default_hint": "easy"
+        }
+      },
+      "spawn-monsters": {
+        "usability": {
+          "exposed": true,
+          "default_hint": true
+        }
+      },
+      "broadcast-rcon-to-ops": {
+        "usability": {
+          "exposed": true,
+          "default_hint": true
+        }
+      },
+      "op-permission-level": {
+        "usability": {
+          "exposed": true,
+          "default_hint": 4,
+          "recommended_range": {
+            "min": 0,
+            "max": 4,
+            "step": 1
+          }
+        }
+      },
+      "pvp": {
+        "usability": {
+          "exposed": true,
+          "default_hint": true
+        }
+      },
+      "entity-broadcast-range-percentage": {
+        "usability": {
+          "exposed": true,
+          "default_hint": 100,
+          "recommended_range": {
+            "min": 10,
+            "max": 1000,
+            "step": 1
+          }
+        }
+      },
+      "snooper-enabled": {
+        "usability": {
+          "exposed": true,
+          "default_hint": true
+        }
+      },
+      "level-type": {
+        "usability": {
+          "exposed": true,
+          "default_hint": "default"
+        }
+      },
+      "hardcore": {
+        "usability": {
+          "exposed": true,
+          "default_hint": false
+        }
+      },
+      "enable-status": {
+        "usability": {
+          "exposed": true,
+          "default_hint": true
+        }
+      },
+      "enable-command-block": {
+        "usability": {
+          "exposed": true,
+          "default_hint": false
+        }
+      },
+      "max-players": {
+        "usability": {
+          "exposed": true,
+          "default_hint": 20
+        }
+      },
+      "network-compression-threshold": {
+        "usability": {
+          "exposed": true,
+          "default_hint": 256
+        }
+      },
+      "resource-pack-sha1": {
+        "usability": {
+          "exposed": true,
+          "default_hint": ""
+        }
+      },
+      "max-world-size": {
+        "usability": {
+          "exposed": true,
+          "default_hint": 29999984,
+          "recommended_range": {
+            "min": 1,
+            "max": 29999984,
+            "step": 1
+          }
+        }
+      },
+      "function-permission-level": {
+        "usability": {
+          "exposed": true,
+          "default_hint": 2,
+          "recommended_range": {
+            "min": 1,
+            "max": 4,
+            "step": 1
+          }
+        }
+      },
+      "rcon.port": {
+        "usability": {
+          "exposed": true,
+          "default_hint": 25575
+        }
+      },
+      "server-port": {
+        "usability": {
+          "exposed": true,
+          "default_hint": 25565
+        }
+      },
+      "server-ip": {
+        "usability": {
+          "exposed": true,
+          "default_hint": ""
+        }
+      },
+      "spawn-npcs": {
+        "usability": {
+          "exposed": true,
+          "default_hint": true
+        }
+      },
+      "allow-flight": {
+        "usability": {
+          "exposed": true,
+          "default_hint": false
+        }
+      },
+      "level-name": {
+        "usability": {
+          "exposed": true,
+          "default_hint": "world"
+        }
+      },
+      "view-distance": {
+        "usability": {
+          "exposed": true,
+          "default_hint": 10,
+          "recommended_range": {
+            "min": 3,
+            "max": 32,
+            "step": 1
+          }
+        }
+      },
+      "resource-pack": {
+        "usability": {
+          "exposed": true,
+          "default_hint": ""
+        }
+      },
+      "spawn-animals": {
+        "usability": {
+          "exposed": true,
+          "default_hint": true
+        }
+      },
+      "white-list": {
+        "usability": {
+          "exposed": true,
+          "default_hint": false
+        }
+      },
+      "rcon.password": {
+        "usability": {
+          "exposed": true,
+          "default_hint": ""
+        }
+      },
+      "generate-structures": {
+        "usability": {
+          "exposed": true,
+          "default_hint": true
+        }
+      },
+      "max-build-height": {
+        "usability": {
+          "exposed": true,
+          "default_hint": 256
+        }
+      },
+      "online-mode": {
+        "usability": {
+          "exposed": true,
+          "default_hint": true
+        }
+      },
+      "level-seed": {
+        "usability": {
+          "exposed": true,
+          "default_hint": ""
+        }
+      },
+      "use-native-transport": {
+        "usability": {
+          "exposed": true,
+          "default_hint": true
+        }
+      },
+      "prevent-proxy-connections": {
+        "usability": {
+          "exposed": true,
+          "default_hint": false
+        }
+      },
+      "enable-jmx-monitoring": {
+        "usability": {
+          "exposed": true,
+          "default_hint": false
+        }
+      },
+      "enable-rcon": {
+        "usability": {
+          "exposed": true,
+          "default_hint": false
+        }
+      },
+      "motd": {
+        "usability": {
+          "exposed": true,
+          "default_hint": "A Minecraft Server"
+        }
+      }
+    }
+  },
+  "gamerule": {
+    "entries": {}
+  }
 }
