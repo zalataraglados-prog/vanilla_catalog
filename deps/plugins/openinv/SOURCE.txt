@@ -1,0 +1,4 @@
+﻿Source: https://github.com/eveninglily/OpenInv
+Commit: fe3d3622c758b8b1eb19e32c2a9408850a43f009
+Built with: spigot-api 1.8.8-R0.1-SNAPSHOT (snapshot 20160221.082514-43)
+Build time: 2026-01-02T01:06:36.7505682+08:00

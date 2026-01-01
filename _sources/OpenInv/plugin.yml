@@ -1,0 +1,16 @@
+name: OpenInv
+main: com.mcintire.evan.OpenInv
+version: 1.0
+
+commands:
+  openinv:
+    description: Opens the inventory of the player specified.
+    usage: /<command> <player>
+    permission: cubeplugin.openinv
+permissions:
+  cubeplugin.openinv:
+    description: Allows you to open inventories of others
+    default: false
+  cubeplugin.openinv.override:
+    descrisption: Protects your inventory from being opened
+    default: false
